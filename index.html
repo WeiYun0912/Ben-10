@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEN 10</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <section>
+      <header>
+        <div class="title">
+          <div class="icon"></div>
+          <p>BEN 10.</p>
+        </div>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Item</a></li>
+          <li><a href="#">Gallary</a></li>
+        </ul>
+      </header>
+      <video autoplay muted loop id="myVideo">
+        <source src="assets/video/ben10.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="wrapper"></div>
+      <div class="content">
+        <div class="textBox">
+          <h2 class="titleText">BEN 10</h2>
+          <p class="introduceText">
+            Ben 10 is an American media franchise created by Man of Action
+            Studios, produced by Cartoon Network Studios and owned by Warner
+            Bros. Discovery. The series centers on a boy named Ben Tennyson who
+            acquires the Omnitrix, an alien device resembling a wristwatch,
+            which contains DNA of different alien species. Using the Omnitrix,
+            Ben can transform into powerful aliens with various abilities. The
+            Omnitrix initially contains ten aliens, although later on Ben
+            obtains more species by adding their DNA.
+          </p>
+          <a href="#" class="transformations">Transformations</a>
+        </div>
+        <div class="imgBox shadow">
+          <img src="assets/img/Omnitrix.png" class="omnitrix" />
+          <div class="silhouette"></div>
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="assets/img/Wildmutt.png"
+            onclick="imgSlider('assets/img/Wildmutt.png',0);"
+            style="transform: scale(1.5)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Fourarms.png"
+            onclick="imgSlider('assets/img/Fourarms.png',1);"
+            height="110"
+            style="transform: scale(0.8)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Greymatter.png"
+            onclick="imgSlider('assets/img/Greymatter.png',2);"
+            style="transform: scale(0.7)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Kineceleran.png"
+            onclick="imgSlider('assets/img/Kineceleran.png',3);"
+            style="transform: scale(1.2)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Upgrade.png"
+            onclick="imgSlider('assets/img/Upgrade.png',4);"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Diamondhead.png"
+            onclick="imgSlider('assets/img/Diamondhead.png',5);"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Ripjaws.png"
+            onclick="imgSlider('assets/img/Ripjaws.png',6);"
+            style="transform: scale(0.7)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Stinkfly.png"
+            onclick="imgSlider('assets/img/Stinkfly.png',7);"
+            style="transform: scale(1.1)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Cannonbolt.png"
+            onclick="imgSlider('assets/img/Cannonbolt.png',8);"
+            style="transform: scale(1.3)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Ghostfreak.png"
+            onclick="imgSlider('assets/img/Ghostfreak.png',9);"
+            style="transform: scale(1.1)"
+          />
+        </li>
+        <li>
+          <img
+            src="assets/img/Heatblast.png"
+            onclick="imgSlider('assets/img/Heatblast.png',10);"
+            style="transform: scale(0.6)"
+          />
+        </li>
+      </ul>
+    </section>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
